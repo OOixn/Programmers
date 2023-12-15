@@ -8,7 +8,7 @@ class Solution {
 
         int answer = 0;
 
-        if (i[0] == i[1] && i[1] == i[2] && i[2] == i[3]) {
+        if (i[0] == i[3]) {
             answer = 1111 * i[3];
         } else if (i[0] == i[2]) {
             answer = (int) Math.pow((10 * i[0] + i[3]), 2);
